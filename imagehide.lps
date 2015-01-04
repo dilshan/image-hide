@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="imagehide.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="imagehide"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="319"/>
+        <CursorPos X="21" Y="339"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="C:\lazarus\fpc\2.6.4\source\packages\fcl-base\src\custapp.pp"/>
+        <UnitName Value="CustApp"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="56"/>
+        <CursorPos X="14" Y="74"/>
+        <UsageCount Value="11"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1005"/>
+        <CursorPos X="10" Y="1027"/>
+        <UsageCount Value="15"/>
+      </Unit2>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="22" HistoryIndex="21">
+      <Position1>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="26" Column="20" TopLine="19"/>
+      </Position1>
+      <Position2>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="101" Column="25" TopLine="81"/>
+      </Position2>
+      <Position3>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="103" Column="15" TopLine="83"/>
+      </Position3>
+      <Position4>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="117" Column="3" TopLine="97"/>
+      </Position4>
+      <Position5>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="146" Column="46" TopLine="130"/>
+      </Position5>
+      <Position6>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="250" Column="47" TopLine="235"/>
+      </Position6>
+      <Position7>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="289" Column="14" TopLine="259"/>
+      </Position7>
+      <Position8>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="253" Column="28" TopLine="233"/>
+      </Position8>
+      <Position9>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="291" Column="28" TopLine="265"/>
+      </Position9>
+      <Position10>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="291" Column="32" TopLine="271"/>
+      </Position10>
+      <Position11>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="255" Column="19" TopLine="236"/>
+      </Position11>
+      <Position12>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="283" Column="16" TopLine="257"/>
+      </Position12>
+      <Position13>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="278" Column="26" TopLine="252"/>
+      </Position13>
+      <Position14>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="256" Column="44" TopLine="236"/>
+      </Position14>
+      <Position15>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="287" Column="13" TopLine="266"/>
+      </Position15>
+      <Position16>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="28" Column="15" TopLine="11"/>
+      </Position16>
+      <Position17>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="21" Column="42" TopLine="11"/>
+      </Position17>
+      <Position18>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="25" Column="4" TopLine="12"/>
+      </Position18>
+      <Position19>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="214" Column="3" TopLine="191"/>
+      </Position19>
+      <Position20>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="322" Column="29" TopLine="301"/>
+      </Position20>
+      <Position21>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="10" Column="120" TopLine="1"/>
+      </Position21>
+      <Position22>
+        <Filename Value="imagehide.lpr"/>
+        <Caret Line="17" Column="44" TopLine="1"/>
+      </Position22>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>
