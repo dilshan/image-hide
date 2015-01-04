@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ImageHide</title>
+</head>
+
+<body>
+<h2>ImageHide</h2>
+<p>ImageHide is simple steganography tool using digital image files. ImageHide can be used to embed "subject image" into "cover image" and extract embedded "subject image" from the "cover image". This application support several image file formats and it also support embedding and extraction of gray-scale and color "subject images" from "cover image".
+</p>
+<p>This application is design to work on both Windows and Linux operating systems as console application. </p>
+<h4>Usage:</h4>
+<pre>imagehide -e -i -h [<em>parameters</em>] &lt;<em>outputimage</em>&gt;</pre>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="110"> <pre>imagehide</pre></td>
+    <td width="17">&nbsp;</td>
+    <td>Filename of the ImageHide executable.</td>
+  </tr>
+  <tr>
+    <td><pre>-e</pre></td>
+    <td>&nbsp;</td>
+    <td>Execute ImageHide application in extraction mode.</td>
+  </tr>
+  <tr>
+    <td><pre>-i</pre></td>
+    <td>&nbsp;</td>
+    <td>Execute ImageHide application in embedding (/insertion) mode.</td>
+  </tr>
+  <tr>
+    <td><pre>-h</pre></td>
+    <td>&nbsp;</td>
+    <td>Show help screen.</td>
+  </tr>
+  <tr>
+    <td><pre>[<em>parameters</em>]</pre></td>
+    <td>&nbsp;</td>
+    <td>This segment can used only with extraction or embedding mode. Valid sequence of parameters are described in below.</td>
+  </tr>
+  <tr>
+    <td><pre>&lt;<em>outputimage</em>&gt;</pre></td>
+    <td>&nbsp;</td>
+    <td>This parameter can used only with extraction or embedding mode. Specify the filename of the output image file with valid file extension.</td>
+  </tr>
+</table>
+<h3>Extraction mode</h3>
+<pre>imagehide -e &lt;<em>srcimage</em>&gt; &lt;<em>out-width</em>&gt; &lt;<em>out-height</em>&gt; &lt;<em>outputimage</em>&gt;</pre>
+<p>Extract embedded image from <em>srcimage</em> and save to <em>outputimage</em>. Use <em>out-width</em> and <em>out-height</em> parameters to specify the size of the embedded image in pixels. If <em>out-width</em> and/or <em>out-height</em> parameters are incorrect, output image get clipped or distorted. </p>
+<h4>Example:</h4>
+<pre>imagehide-x86_64-linux -e ./demo-image.png 125 200 ./output-image.png</pre>
+<p>In above example ImageHide extract 125px &times; 200px image from <em>demo-image.png</em> file and save it to <em>output-image.png</em>.</p>
+<h3>Insertion mode</h3>
+<pre>imagehide -i &lt;<em>coverimage</em>&gt; &lt;<em>subjectimage</em>&gt; &lt;<em>outputimage</em>&gt;</pre>
+<p>Embed <em>subjectimage</em> into <em>coverimage</em> and save in location given by <em>outputimage</em> parameter. </p>
+<h4>Example:</h4>
+<pre>imagehide-x86_64-linux -i ./barbara-512.png ./message.jpg ./demo-image.png</pre>
+<p>In above example ImageHide embed <em>message.jpg</em> into <em>barbara-512.png</em> image and save embedded image as <em>demo-image.png</em>.</p>
+<hr size="1" />
+<p align="right"><font size="-1">Copyright &copy; 2015 Dilshan R Jayakody [jayakody2000lk <em>at</em> gmail <em>dot</em> com]</font></p>
+</body>
+</html>
